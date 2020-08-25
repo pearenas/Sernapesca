@@ -24,11 +24,11 @@ library(knitr)
 &nbsp;
 
 ## Resumen
-En este documento se muestran los resultados usando la base de datos VMS de Chile para evaluar el esfuerzo pesquero dentro de las 15 regiones por las cuales se divide la zona economica exclusiva de Chile. De acuerdo a lo estipulado, el **esfuerzo pesquero se evaluó por mes, por región y por embarcación desde enero a julio del 2020**. \   
+En este documento se muestran los resultados usando la base de datos VMS de Chile para evaluar el esfuerzo pesquero dentro de las 15 regiones por las cuales se divide la zona economica exclusiva de Chile. De acuerdo con lo estipulado, el **esfuerzo pesquero no incluye embarcaciones acuícolas ni de transporte y se evaluó por mes, por región y por embarcación desde enero a julio del 2020**. \   
 
 &nbsp;
 
-Conforme a la base de datos analizada, los resultados sugieren que el nivel más alto de esfuerzo pesquero ocurre en mayo, aumentando sucesivamente desde enero y disminuyendo de junio a julio. No parece haber un patrón claro en cuanto al esfuerzo pesquero por región. El nivel de esfuerzo pesquero varía por mes y por región, cada región teniendo su nivel de esfuerzo pesquero más altos en distintos meses. Aunque el esfuerzo en conjunto sí parece ser mayor en mayo, como ya se comentó. En general, parece que las regiones del sur cuentan con niveles más altos de esfuerzo pesquero. Por ejemplo, de enero a mayo, se puede observar en Biobio, Los Lagos, Aysen y Magallanes niveles de esfuerzo pesquero más altos que en cualquier otra región. Asimismo, de enero a julio del 2020, Biobio, Los Lagos, Aysen y Magallanes son las regiones con el mayor número de horas de transito y pesca.  \   
+Conforme a la base de datos analizada, los resultados sugieren que el nivel más alto de esfuerzo pesquero ocurre en mayo, aumentando sucesivamente desde enero y disminuyendo de junio a julio. No parece haber un patrón claro en cuanto al esfuerzo pesquero por región. El nivel de esfuerzo pesquero varía por mes y por región, cada región teniendo su nivel de esfuerzo pesquero más alto en distintos meses. Aunque el esfuerzo en conjunto sí parece ser mayor en mayo, como ya se comentó. En general, parece que las regiones del sur cuentan con niveles más altos de esfuerzo pesquero. Por ejemplo, de enero a abril, se puede observar en Biobio, Aysen y Magallanes niveles de esfuerzo pesquero más altos que en cualquier otra región. Sin embargo, se podría decir que esta diferencia no es significante ya que el esfuerzo pesquero es muy similar entre todas las regiones. Biobio es la única región que destaca, con niveles de esfuerzo pesquero mucho más altos que las demás regiones, por la mayoría de los meses.  \   
 
 &nbsp;
 

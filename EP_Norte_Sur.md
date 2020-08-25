@@ -226,7 +226,9 @@ lat,lon,
 EXTRACT(DATE from timestamp) as Date,
 EXTRACT (Month from timestamp) as Month,
 FROM `world-fishing-827.pipe_chile_production_v20200331.messages_scored_*`
-WHERE timestamp BETWEEN TIMESTAMP("2020-01-01")
+WHERE (source = "chile_vms_industry"
+OR source = "chile_vms_small_fisheries")
+AND timestamp BETWEEN TIMESTAMP("2020-01-01")
 AND TIMESTAMP("2020-08-01")
 ),
 
@@ -273,7 +275,7 @@ SELECT *
 FROM FishEffortFinal
 ')
 VMS_Hours_Final <- DBI::dbGetQuery(con, query_string)
-# write.csv(VMS_Hours_Final, file = "VMS_Hours_Final.csv")
+write.csv(VMS_Hours_Final, file = "VMS_Hours_Final.csv")
 ```
 
 Small query to extract unique VMS vessel names to then match and have
@@ -307,16 +309,16 @@ ARICA_Horas <- read.csv ("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERN
 
 |  X | Embarcacion      | Mes   | Horas\_De\_Pesca\_Km2 | Horas\_Transito\_y\_Pesca\_Km2 |
 | -: | :--------------- | :---- | --------------------: | -----------------------------: |
-|  1 | ABEL (ART)       | enero |                     7 |                            636 |
-|  2 | ABRAHAM (ART)    | enero |                     2 |                            527 |
+|  1 | ABEL (ART)       | enero |                     7 |                             22 |
+|  2 | ABRAHAM (ART)    | enero |                     2 |                             11 |
 |  3 | ALERCE (IND)     | enero |                     0 |                             10 |
-|  4 | AMADEUS (ART)    | enero |                     7 |                            296 |
-|  5 | AMADEUS II (ART) | enero |                     8 |                            636 |
-|  6 | ANGAMOS 2 (IND)  | enero |                     0 |                            189 |
-|  7 | ANGAMOS 4 (IND)  | enero |                     8 |                            456 |
-|  8 | ANGAMOS 9 (IND)  | enero |                     7 |                            420 |
-|  9 | ARKHOS I (ART)   | enero |                     6 |                            635 |
-| 10 | ARKHOS II (ART)  | enero |                     8 |                            636 |
+|  4 | AMADEUS (ART)    | enero |                     7 |                             22 |
+|  5 | AMADEUS II (ART) | enero |                     8 |                             21 |
+|  6 | ANGAMOS 2 (IND)  | enero |                     0 |                              4 |
+|  7 | ANGAMOS 4 (IND)  | enero |                     8 |                             55 |
+|  8 | ANGAMOS 9 (IND)  | enero |                     7 |                             50 |
+|  9 | ARKHOS I (ART)   | enero |                     6 |                             22 |
+| 10 | ARKHOS II (ART)  | enero |                     8 |                             20 |
 
 Methods for generating other tables (as the one shown above) with per
 vessel per area per month fishing and total hours.
@@ -349,7 +351,7 @@ ARICA_F$Mes[ARICA_F$Mes==7] <- "julio"
 ARICA_F$Horas_De_Pesca_Km2 <- round(ARICA_F$Horas_De_Pesca_Km2,0)
 ARICA_F$Horas_Transito_y_Pesca_Km2 <- round(ARICA_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(ARICA_F, file = "1_ARICA_Horas.csv")
+write.csv(ARICA_F, file = "1_ARICA_Horas.csv")
 
 #2 TARAPACA
 TARAPACA_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/2_Tarapaca_Tmp.geojson")
@@ -374,7 +376,7 @@ TARAPACA_F$Mes[TARAPACA_F$Mes==7] <- "julio"
 TARAPACA_F$Horas_De_Pesca_Km2 <- round(TARAPACA_F$Horas_De_Pesca_Km2,0)
 TARAPACA_F$Horas_Transito_y_Pesca_Km2 <- round(TARAPACA_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(TARAPACA_F, file = "2_Tarapaca_Horas.csv")
+write.csv(TARAPACA_F, file = "2_Tarapaca_Horas.csv")
 
 #3 ANTOFAGASTA
 Antofagasta_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/3_Antofagasta_Tmp.geojson")
@@ -399,7 +401,7 @@ Antofagasta_F$Mes[Antofagasta_F$Mes==7] <- "julio"
 Antofagasta_F$Horas_De_Pesca_Km2 <- round(Antofagasta_F$Horas_De_Pesca_Km2,0)
 Antofagasta_F$Horas_Transito_y_Pesca_Km2 <- round(Antofagasta_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Antofagasta_F, file = "3_Antofagasta_Horas.csv")
+write.csv(Antofagasta_F, file = "3_Antofagasta_Horas.csv")
 
 #4 ATACAMA
 Atacama_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/4_Atacama_Tmp.geojson")
@@ -424,7 +426,7 @@ Atacama_F$Mes[Atacama_F$Mes==7] <- "julio"
 Atacama_F$Horas_De_Pesca_Km2 <- round(Atacama_F$Horas_De_Pesca_Km2,0)
 Atacama_F$Horas_Transito_y_Pesca_Km2 <- round(Atacama_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Atacama_F, file = "4_Atacama_Horas.csv")
+write.csv(Atacama_F, file = "4_Atacama_Horas.csv")
 
 #5 COQUIMBO
 Coquimbo_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/5_Coquimbo_Tmp.geojson")
@@ -449,7 +451,7 @@ Coquimbo_F$Mes[Coquimbo_F$Mes==7] <- "julio"
 Coquimbo_F$Horas_De_Pesca_Km2 <- round(Coquimbo_F$Horas_De_Pesca_Km2,0)
 Coquimbo_F$Horas_Transito_y_Pesca_Km2 <- round(Coquimbo_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Coquimbo_F, file = "5_Coquimbo_Horas.csv")
+write.csv(Coquimbo_F, file = "5_Coquimbo_Horas.csv")
 
 #6 VALPARAISO
 Valparaiso_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/6_Valparaiso_Tmp.geojson")
@@ -474,7 +476,7 @@ Valparaiso_F$Mes[Valparaiso_F$Mes==7] <- "julio"
 Valparaiso_F$Horas_De_Pesca_Km2 <- round(Valparaiso_F$Horas_De_Pesca_Km2,0)
 Valparaiso_F$Horas_Transito_y_Pesca_Km2 <- round(Valparaiso_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Valparaiso_F, file = "6_Valparaiso_Horas.csv")
+write.csv(Valparaiso_F, file = "6_Valparaiso_Horas.csv")
 
 #7 OHIGGINS
 Ohiggins_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/7_Ohiggins_Tmp.geojson")
@@ -499,7 +501,7 @@ Ohiggins_F$Mes[Ohiggins_F$Mes==7] <- "julio"
 Ohiggins_F$Horas_De_Pesca_Km2 <- round(Ohiggins_F$Horas_De_Pesca_Km2,0)
 Ohiggins_F$Horas_Transito_y_Pesca_Km2 <- round(Ohiggins_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Ohiggins_F, file = "7_Ohiggins_Horas.csv")
+write.csv(Ohiggins_F, file = "7_Ohiggins_Horas.csv")
 
 #8 MAULE
 Maule_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/8_Maule_Tmp.geojson")
@@ -524,7 +526,7 @@ Maule_F$Mes[Maule_F$Mes==7] <- "julio"
 Maule_F$Horas_De_Pesca_Km2 <- round(Maule_F$Horas_De_Pesca_Km2,0)
 Maule_F$Horas_Transito_y_Pesca_Km2 <- round(Maule_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Maule_F, file = "8_Maule_Horas.csv")
+write.csv(Maule_F, file = "8_Maule_Horas.csv")
 
 #9 NUBLE
 Nuble_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/9_Nuble_Tmp.geojson")
@@ -549,7 +551,7 @@ Nuble_F$Mes[Nuble_F$Mes==7] <- "julio"
 Nuble_F$Horas_De_Pesca_Km2 <- round(Nuble_F$Horas_De_Pesca_Km2,0)
 Nuble_F$Horas_Transito_y_Pesca_Km2 <- round(Nuble_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Nuble_F, file = "9_Nuble_Horas.csv")
+write.csv(Nuble_F, file = "9_Nuble_Horas.csv")
 
 #10 NUBLE
 Biobio_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/10_Biobio_Tmp.geojson")
@@ -574,7 +576,7 @@ Biobio_F$Mes[Biobio_F$Mes==7] <- "julio"
 Biobio_F$Horas_De_Pesca_Km2 <- round(Biobio_F$Horas_De_Pesca_Km2,0)
 Biobio_F$Horas_Transito_y_Pesca_Km2 <- round(Biobio_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Biobio_F, file = "10_Biobio_Horas.csv")
+write.csv(Biobio_F, file = "10_Biobio_Horas.csv")
 
 #11 ARAUCANIA
 Araucania_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/11_Araucania_Tmp.geojson")
@@ -599,7 +601,7 @@ Araucania_F$Mes[Araucania_F$Mes==7] <- "julio"
 Araucania_F$Horas_De_Pesca_Km2 <- round(Araucania_F$Horas_De_Pesca_Km2,0)
 Araucania_F$Horas_Transito_y_Pesca_Km2 <- round(Araucania_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Araucania_F, file = "11_Araucania_Horas.csv")
+write.csv(Araucania_F, file = "11_Araucania_Horas.csv")
 
 #12 LOS RIOS
 Los_Rios_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/12_Los_Rios_Tmp.geojson")
@@ -624,7 +626,7 @@ Los_Rios_F$Mes[Los_Rios_F$Mes==7] <- "julio"
 Los_Rios_F$Horas_De_Pesca_Km2 <- round(Los_Rios_F$Horas_De_Pesca_Km2,0)
 Los_Rios_F$Horas_Transito_y_Pesca_Km2 <- round(Los_Rios_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Los_Rios_F, file = "12_Los_Rios_Horas.csv")
+write.csv(Los_Rios_F, file = "12_Los_Rios_Horas.csv")
 
 #13 LOS LAGOS
 Los_Lagos_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/13_Los_Lagos_Tmp.geojson")
@@ -649,7 +651,7 @@ Los_Lagos_F$Mes[Los_Lagos_F$Mes==7] <- "julio"
 Los_Lagos_F$Horas_De_Pesca_Km2 <- round(Los_Lagos_F$Horas_De_Pesca_Km2,0)
 Los_Lagos_F$Horas_Transito_y_Pesca_Km2 <- round(Los_Lagos_F$Horas_Transito_y_Pesca_Km2,0)
 
-# write.csv(Los_Lagos_F, file = "13_Los_Lagos_Horas.csv")
+write.csv(Los_Lagos_F, file = "13_Los_Lagos_Horas.csv")
 
 #14 AYSEN
 Aysen_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/14_Aysen_Tmp.geojson")
@@ -702,7 +704,7 @@ Magallanes_F$Horas_Transito_y_Pesca_Km2 <- round(Magallanes_F$Horas_Transito_y_P
 write.csv(Magallanes_F, file = "15_Magallanes_Horas.csv")
 
 #16 TODOS
-Todos_Tmp <- st_read("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/16_Todos_Tmp.geojson")
+Todos_Tmp <- read.csv("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Hours/VMS_Hours_Final.csv", header = TRUE)
 Todos_Tmp2 <- data.frame(aggregate(fishing_hours_sq_km ~ n_shipname + Month, Todos_Tmp, sum))
 Todos_Tmp3 <- data.frame(aggregate(total_hours_sq_km ~ n_shipname + Month, Todos_Tmp, sum))
 Todos_F <- Todos_Tmp2
