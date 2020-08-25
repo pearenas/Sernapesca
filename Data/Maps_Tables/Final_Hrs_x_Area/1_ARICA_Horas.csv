@@ -1,495 +1,455 @@
 "","Embarcacion","Mes","Horas_De_Pesca_Km2","Horas_Transito_y_Pesca_Km2"
-"1","ABEL (ART)","enero",7,636
-"2","ABRAHAM (ART)","enero",2,527
+"1","ABEL (ART)","enero",7,22
+"2","ABRAHAM (ART)","enero",2,11
 "3","ALERCE (IND)","enero",0,10
-"4","AMADEUS (ART)","enero",7,296
-"5","AMADEUS II (ART)","enero",8,636
-"6","ANGAMOS 2 (IND)","enero",0,189
-"7","ANGAMOS 4 (IND)","enero",8,456
-"8","ANGAMOS 9 (IND)","enero",7,420
-"9","ARKHOS I (ART)","enero",6,635
-"10","ARKHOS II (ART)","enero",8,636
-"11","ARKHOS IV (ART)","enero",11,636
-"12","ATACAMA IV (IND)","enero",4,16
-"13","ATACAMA V (IND)","enero",2,17
-"14","AUDAZ (IND)","enero",11,426
+"4","AMADEUS (ART)","enero",7,22
+"5","AMADEUS II (ART)","enero",8,21
+"6","ANGAMOS 2 (IND)","enero",0,4
+"7","ANGAMOS 4 (IND)","enero",8,55
+"8","ANGAMOS 9 (IND)","enero",7,50
+"9","ARKHOS I (ART)","enero",6,22
+"10","ARKHOS II (ART)","enero",8,20
+"11","ARKHOS IV (ART)","enero",10,25
+"12","ATACAMA IV (IND)","enero",4,9
+"13","ATACAMA V (IND)","enero",2,8
+"14","AUDAZ (IND)","enero",11,55
 "15","AVENTURERO (IND)","enero",0,2
 "16","BANDURRIA (IND)","enero",0,12
 "17","BARRACUDA IV (IND)","enero",0,4
 "18","BLANQUILLO (IND)","enero",0,3
 "19","CAMIÑA (IND)","enero",0,7
-"20","CESAR MIGUEL (ART)","enero",4,636
-"21","CHANGO I (ART)","enero",10,252
-"22","CHENCO (ART)","enero",10,565
+"20","CESAR MIGUEL (ART)","enero",4,23
+"21","CHANGO I (ART)","enero",10,31
+"22","CHENCO (ART)","enero",10,23
 "23","COSTA GRANDE 1 (IND)","enero",3,6
-"24","COYI I (ART)","enero",0,637
-"25","COYI II (ART)","enero",12,636
-"26","DANIEL (ART)","enero",7,636
+"24","COYI I (ART)","enero",0,1
+"25","COYI II (ART)","enero",11,28
+"26","DANIEL (ART)","enero",7,17
 "27","DOÑA BELLA (L","enero",27,27
-"28","DOÑA PILAR II (ART)","enero",10,617
-"29","DON ERNESTO AYALA MARFIL (IND)","enero",5,438
+"28","DOÑA PILAR II (ART)","enero",8,28
+"29","DON ERNESTO AYALA MARFIL (IND)","enero",5,48
 "30","DON GINO (IND)","enero",4,21
-"31","DON JOSE I (ART)","enero",11,618
-"32","DON LUCHO (ART)","enero",0,395
+"31","DON JOSE I (ART)","enero",11,24
+"32","DON LUCHO (ART)","enero",0,1
 "33","EPERVA 49 (IND)","enero",0,10
-"34","EPERVA 51 (IND)","enero",4,410
-"35","EPERVA 56 (IND)","enero",0,636
-"36","EPERVA 61 (IND)","enero",8,258
-"37","EPERVA 62 (IND)","enero",2,409
-"38","GIANPIERO I","enero",0,5
-"39","GRINGO PABLO II (ART)","enero",1,636
-"40","GUAJACHE II (ART)","enero",6,635
-"41","HALCON (IND)","enero",0,10
-"42","HUMBOLDT II (ART)","enero",15,248
-"43","HURACAN (IND)","enero",3,30
-"44","ICALMA (IND)","enero",10,477
-"45","INTREPIDO (IND)","enero",0,8
-"46","ISAURA I (ART)","enero",2,615
-"47","ISIDORA I     ART","enero",1,332
-"48","J J (ART)","enero",12,586
-"49","JOSUE (ART)","enero",8,284
-"50","JUDITH (ART)","enero",0,636
-"51","KAREN PAMELA (ART)","enero",4,129
-"52","KAWESCAR (ART)","enero",0,70
-"53","LAZARO (ART)","enero",0,20
-"54","LOA 2 (IND)","enero",2,16
-"55","LOBO DE AFUERA IV (ART)","enero",12,636
-"56","LOBO DE AFUERA V (ART)","enero",9,636
-"57","LORETO V (ART)","enero",7,635
-"58","MARCELO RODOLFO (ART)","enero",9,636
-"59","MARLIN (IND)","enero",0,2
-"60","MERO (IND)","enero",0,9
-"61","PARINA I (IND)","enero",6,443
-"62","PELICANO (IND)","enero",9,596
-"63","PETROHUE I (ART)","enero",8,637
-"64","PETROHUE II (ART)","enero",8,268
-"65","PETROHUE III (ART)","enero",7,636
-"66","PUCARA (IND)","enero",4,458
-"67","RINA F Y M","enero",0,205
-"68","SALMON (IND)","enero",0,26
-"69","SAN JORGE I (IND)","enero",0,11
-"70","SHALON II (ART)","enero",7,636
-"71","TORNADO (IND)","enero",0,27
-"72","TUAREG I (ART)","enero",9,633
-"73","VALENCIA (ART)","enero",10,150
-"74","VALENTINA (L","enero",0,14
-"75","ABEL (ART)","febrero",0,596
-"76","ABRAHAM (ART)","febrero",2,596
-"77","AMADEUS II (ART)","febrero",0,596
-"78","ANGAMOS 2 (IND)","febrero",1,596
-"79","ANGAMOS 4 (IND)","febrero",1,596
-"80","ANGAMOS 9 (IND)","febrero",1,596
-"81","ARKHOS I (ART)","febrero",0,596
-"82","ARKHOS II (ART)","febrero",0,596
-"83","ARKHOS IV (ART)","febrero",0,555
-"84","AUDAZ (IND)","febrero",2,574
-"85","BLANQUILLO (IND)","febrero",0,8
-"86","CESAR MIGUEL (ART)","febrero",1,596
-"87","CHENCO (ART)","febrero",15,548
-"88","CORPESCA I (IND)","febrero",0,23
-"89","COYI I (ART)","febrero",0,307
-"90","COYI II (ART)","febrero",0,596
-"91","DANIEL (ART)","febrero",0,596
-"92","DEL MAR III","febrero",0,0
-"93","DOÑA PILAR II (ART)","febrero",0,596
-"94","DON ERNESTO AYALA MARFIL (IND)","febrero",1,475
-"95","DON JOSE I (ART)","febrero",1,357
-"96","ELVA S (ART","febrero",0,5
-"97","EPERVA 51 (IND)","febrero",1,520
-"98","EPERVA 56 (IND)","febrero",0,579
-"99","EPERVA 62 (IND)","febrero",5,596
-"100","GIANPIERO I","febrero",1,4
-"101","GRINGO PABLO II (ART)","febrero",0,510
-"102","GUAJACHE II (ART)","febrero",0,595
-"103","ICALMA (IND)","febrero",1,573
-"104","ISAURA I (ART)","febrero",0,540
-"105","ISIDORA I     ART","febrero",1,31
-"106","J J (ART)","febrero",0,481
-"107","JOSUE (ART)","febrero",0,239
-"108","JUDITH (ART)","febrero",0,510
-"109","KAWESCAR (ART)","febrero",0,596
-"110","LAZARO (ART)","febrero",88,468
-"111","LOBO DE AFUERA IV (ART)","febrero",0,317
-"112","LOBO DE AFUERA V (ART)","febrero",0,596
-"113","LORETO V (ART)","febrero",0,364
-"114","MARCELO RODOLFO (ART)","febrero",0,596
-"115","PARINA I (IND)","febrero",2,596
-"116","PELICANO (IND)","febrero",1,502
-"117","PETROHUE I (ART)","febrero",1,596
-"118","PETROHUE II (ART)","febrero",0,8
-"119","PETROHUE III (ART)","febrero",0,596
-"120","PUCARA (IND)","febrero",0,547
-"121","RELAMPAGO (IND)","febrero",0,32
-"122","RINA F Y M","febrero",0,1
-"123","SHALON II (ART)","febrero",0,596
-"124","TUAREG I (ART)","febrero",0,595
-"125","VALENTINA (L","febrero",0,5
-"126","ABEL (ART)","marzo",25,624
-"127","ABRAHAM (ART)","marzo",22,629
-"128","ALBIMER (IND)","marzo",8,28
-"129","AMADEUS II (ART)","marzo",20,626
-"130","ANGAMOS 2 (IND)","marzo",8,525
-"131","ANGAMOS 3 (IND)","marzo",2,5
-"132","ANGAMOS 4 (IND)","marzo",5,488
-"133","ANGAMOS 9 (IND)","marzo",3,481
-"134","ARKHOS I (ART)","marzo",24,628
-"135","ARKHOS II (ART)","marzo",28,624
-"136","ARKHOS III (ART)","marzo",37,595
-"137","ARKHOS IV (ART)","marzo",29,626
-"138","ATACAMA IV (IND)","marzo",3,5
-"139","ATACAMA V (IND)","marzo",12,22
-"140","AUDAZ (IND)","marzo",7,487
-"141","AVENTURERO (IND)","marzo",1,4
-"142","BARRACUDA IV (IND)","marzo",7,12
-"143","CESAR MIGUEL (ART)","marzo",25,623
-"144","CHANGO I (ART)","marzo",9,349
-"145","CHENCO (ART)","marzo",13,183
-"146","CLAUDIA ALEJANDRA (IND)","marzo",5,9
-"147","CORPESCA 2 (IND)","marzo",0,3
-"148","CORPESCA I (IND)","marzo",8,14
-"149","COSTA GRANDE 1 (IND)","marzo",6,13
-"150","COYI I (ART)","marzo",29,625
-"151","COYI II (ART)","marzo",25,629
-"152","DANIEL (ART)","marzo",30,552
-"153","DOÑA PILAR II (ART)","marzo",31,624
-"154","DON ERNESTO AYALA MARFIL (IND)","marzo",5,496
-"155","DON GINO (IND)","marzo",5,11
-"156","DON JOSE I (ART)","marzo",33,628
-"157","ELVA S (ART","marzo",0,183
-"158","EPERVA 51 (IND)","marzo",7,484
-"159","EPERVA 56 (IND)","marzo",9,491
-"160","EPERVA 61 (IND)","marzo",12,378
-"161","EPERVA 62 (IND)","marzo",11,481
-"162","EPERVA 65 (IND)","marzo",11,14
-"163","EPERVA 66 (IND)","marzo",8,13
-"164","GIANPIERO I","marzo",38,254
-"165","GUAJACHE II (ART)","marzo",24,625
-"166","HURACAN (IND)","marzo",5,9
-"167","ICALMA (IND)","marzo",9,507
-"168","ISAURA I (ART)","marzo",16,626
-"169","ISIDORA I (ART)","marzo",4,64
-"170","ISIDORA I     ART","marzo",23,243
-"171","J J (ART)","marzo",33,459
-"172","JOSUE (ART)","marzo",37,518
-"173","JUAN I (L","marzo",236,485
-"174","JUDITH (ART)","marzo",0,103
-"175","KAREN PAMELA (ART)","marzo",0,44
-"176","KAWESCAR (ART)","marzo",25,629
-"177","LAZARO (ART)","marzo",43,579
-"178","LOBO DE AFUERA IV (ART)","marzo",25,629
-"179","LOBO DE AFUERA V (ART)","marzo",24,627
-"180","LORETO V (ART)","marzo",25,561
-"181","MARCELO RODOLFO (ART)","marzo",36,624
-"182","MARLIN (IND)","marzo",7,10
-"183","MERO (IND)","marzo",6,11
-"184","PARINA I (IND)","marzo",6,484
-"185","PELICANO (IND)","marzo",27,626
-"186","PETROHUE I (ART)","marzo",27,628
-"187","PETROHUE II (ART)","marzo",30,613
-"188","PETROHUE III (ART)","marzo",25,628
-"189","PURISIMA DEL CARMEN (L","marzo",68,118
-"190","RELAMPAGO (IND)","marzo",3,6
-"191","RINA F Y M","marzo",0,1
-"192","ROCIO (L","marzo",128,366
-"193","SALMON (IND)","marzo",4,5
-"194","SANTA MARGARITA I (L","marzo",36,584
-"195","SANTIAGO (ART)","marzo",0,234
-"196","SHALOM II (ART)","marzo",15,425
-"197","SHALON II (ART)","marzo",16,199
-"198","TRUENO I (IND)","marzo",0,30
-"199","TUAREG I (ART)","marzo",27,629
-"200","VALENCIA (ART)","marzo",15,147
-"201","VALENTINA (L","marzo",34,330
-"202","ABEL (ART)","abril",41,542
-"203","ABRAHAM (ART)","abril",0,557
-"204","ALBIMER (IND)","abril",24,41
-"205","AMADEUS (ART)","abril",49,462
-"206","AMADEUS II (ART)","abril",55,549
-"207","ANGAMOS 2 (IND)","abril",21,281
-"208","ANGAMOS 3 (IND)","abril",12,40
-"209","ANGAMOS 4 (IND)","abril",21,254
-"210","ANGAMOS 9 (IND)","abril",3,246
-"211","ARKHOS I (ART)","abril",34,535
-"212","ARKHOS II (ART)","abril",48,547
-"213","ARKHOS III (ART)","abril",44,543
-"214","ARKHOS IV (ART)","abril",41,546
-"215","ATACAMA IV (IND)","abril",24,33
-"216","ATACAMA V (IND)","abril",21,47
-"217","AUDAZ (IND)","abril",29,282
-"218","AVENTURERO (IND)","abril",20,31
-"219","BARRACUDA IV (IND)","abril",12,20
-"220","CESAR MIGUEL (ART)","abril",43,550
-"221","CHANGO I (ART)","abril",47,537
-"222","CLAUDIA ALEJANDRA (IND)","abril",21,46
-"223","CORPESCA 2 (IND)","abril",4,6
-"224","CORPESCA I (IND)","abril",12,22
-"225","COSTA GRANDE 1 (IND)","abril",9,26
-"226","COYI I (ART)","abril",56,546
-"227","COYI II (ART)","abril",50,554
-"228","DANIEL (ART)","abril",25,212
-"229","DOÑA PILAR II (ART)","abril",53,539
-"230","DON ERNESTO AYALA MARFIL (IND)","abril",17,250
-"231","DON GINO (IND)","abril",21,49
-"232","DON JOSE I (ART)","abril",45,541
-"233","EPERVA 51 (IND)","abril",19,271
-"234","EPERVA 56 (IND)","abril",10,258
-"235","EPERVA 61 (IND)","abril",36,301
-"236","EPERVA 62 (IND)","abril",20,254
-"237","EPERVA 66 (IND)","abril",5,8
-"238","GIANPIERO I","abril",76,296
-"239","GUAJACHE II (ART)","abril",47,542
-"240","GUSTAVO IGNACIO","abril",0,0
-"241","HALCON (IND)","abril",12,17
-"242","HUMBOLDT II (ART)","abril",36,352
-"243","ICALMA (IND)","abril",16,275
-"244","INTREPIDO (IND)","abril",2,5
-"245","ISAURA I (ART)","abril",0,483
-"246","ISIDORA I (ART)","abril",31,202
-"247","J J (ART)","abril",51,475
-"248","JOSUE (ART)","abril",52,326
-"249","JUAN I (L","abril",102,130
-"250","KAREN PAMELA (ART)","abril",59,527
-"251","KAWESCAR (ART)","abril",47,538
-"252","LAZARO (ART)","abril",0,557
-"253","LICANTEN (IND)","abril",18,48
-"254","LOA 1 (IND)","abril",21,34
-"255","LOA 2 (IND)","abril",21,30
-"256","LOA 7 (IND)","abril",9,14
-"257","LOBO DE AFUERA IV (ART)","abril",45,546
-"258","LOBO DE AFUERA V (ART)","abril",53,549
-"259","LORETO V (ART)","abril",55,448
-"260","MARCELO RODOLFO (ART)","abril",53,519
-"261","MARISOL III (L","abril",21,28
-"262","MARLIN (IND)","abril",26,61
-"263","MERO (IND)","abril",12,49
-"264","PARINA I (IND)","abril",12,265
-"265","PELICANO (IND)","abril",47,549
-"266","PETROHUE I (ART)","abril",28,545
-"267","PETROHUE II (ART)","abril",32,540
-"268","PETROHUE III (ART)","abril",40,539
-"269","RELAMPAGO (IND)","abril",0,2
-"270","RINA F Y M","abril",0,2
-"271","ROCIO (L","abril",72,104
-"272","SAN JORGE I (IND)","abril",15,18
-"273","SANTA MARGARITA I (L","abril",34,425
-"274","SANTIAGO (ART)","abril",57,544
-"275","SHALOM II (ART)","abril",47,537
-"276","TRUENO I (IND)","abril",1,424
-"277","TUAREG I (ART)","abril",31,541
-"278","VALENCIA (ART)","abril",18,84
-"279","VALENTINA (L","abril",50,337
-"280","ABEL (ART)","mayo",40,347
-"281","ABRAHAM (ART)","mayo",19,424
-"282","ALBIMER (IND)","mayo",0,10
-"283","ALERCE (IND)","mayo",0,21
-"284","AMADEUS (ART)","mayo",50,542
-"285","AMADEUS II (ART)","mayo",46,537
-"286","ANGAMOS 2 (IND)","mayo",17,250
-"287","ANGAMOS 3 (IND)","mayo",10,70
-"288","ANGAMOS 4 (IND)","mayo",1,546
-"289","ANGAMOS 9 (IND)","mayo",7,250
-"290","ARKHOS I (ART)","mayo",41,626
-"291","ARKHOS II (ART)","mayo",58,626
-"292","ARKHOS III (ART)","mayo",42,428
-"293","ARKHOS IV (ART)","mayo",41,494
-"294","ATACAMA IV (IND)","mayo",0,23
-"295","AUDAZ (IND)","mayo",9,234
-"296","AVENTURERO (IND)","mayo",0,1
-"297","BANDURRIA (IND)","mayo",3,21
-"298","BARRACUDA IV (IND)","mayo",2,19
-"299","BLANQUILLO (IND)","mayo",0,11
-"300","CESAR MIGUEL (ART)","mayo",28,333
-"301","CHANGO I (ART)","mayo",30,382
-"302","CLAUDIA ALEJANDRA (IND)","mayo",1,15
-"303","COLLEN (IND)","mayo",1,38
-"304","CORPESCA 2 (IND)","mayo",4,19
-"305","COYI I (ART)","mayo",54,569
-"306","COYI II (ART)","mayo",66,571
-"307","DANIEL (ART)","mayo",28,259
-"308","DOÑA PILAR II (ART)","mayo",42,575
-"309","DON ERNESTO AYALA MARFIL (IND)","mayo",24,348
-"310","DON GINO (IND)","mayo",0,5
-"311","DON JOSE I (ART)","mayo",31,466
-"312","ELVA S (ART","mayo",33,273
-"313","EPERVA 49 (IND)","mayo",13,94
-"314","EPERVA 51 (IND)","mayo",8,227
-"315","EPERVA 56 (IND)","mayo",11,241
-"316","EPERVA 61 (IND)","mayo",5,259
-"317","EPERVA 62 (IND)","mayo",3,195
-"318","EPERVA 65 (IND)","mayo",0,7
-"319","GIANPIERO I","mayo",17,110
-"320","GUAJACHE II (ART)","mayo",39,567
-"321","HALCON (IND)","mayo",5,74
-"322","HUMBOLDT II (ART)","mayo",50,467
-"323","HURACAN (IND)","mayo",1,22
-"324","ICALMA (IND)","mayo",24,335
-"325","INTREPIDO (IND)","mayo",12,58
-"326","ISIDORA I (ART)","mayo",18,128
-"327","J J (ART)","mayo",53,574
-"328","JOSUE (ART)","mayo",16,134
-"329","JUAN I (L","mayo",307,634
-"330","JUDITH (ART)","mayo",0,95
-"331","KAREN PAMELA (ART)","mayo",50,426
-"332","KAWESCAR (ART)","mayo",12,124
-"333","LAZARO (ART)","mayo",0,34
-"334","LICANTEN (IND)","mayo",2,16
-"335","LOA 1 (IND)","mayo",0,22
-"336","LOA 2 (IND)","mayo",0,22
-"337","LOBO DE AFUERA IV (ART)","mayo",44,630
-"338","LOBO DE AFUERA V (ART)","mayo",50,475
-"339","LORETO V (ART)","mayo",18,209
-"340","MARCELO RODOLFO (ART)","mayo",34,382
-"341","MARISOL III (L","mayo",138,140
-"342","MARLIN (IND)","mayo",4,47
-"343","MERO (IND)","mayo",9,77
-"344","PARINA I (IND)","mayo",15,258
-"345","PELICANO (IND)","mayo",18,410
-"346","PETROHUE I (ART)","mayo",41,582
-"347","PETROHUE II (ART)","mayo",50,572
-"348","PETROHUE III (ART)","mayo",44,571
-"349","PUCARA (IND)","mayo",5,328
-"350","RELAMPAGO (IND)","mayo",8,50
-"351","RINA F Y M","mayo",0,245
-"352","ROCIO (L","mayo",45,522
-"353","SALMON (IND)","mayo",9,69
-"354","SANTA MARGARITA I (L","mayo",19,344
-"355","SANTIAGO (ART)","mayo",7,628
-"356","SHALOM II (ART)","mayo",45,506
-"357","TORNADO (IND)","mayo",10,53
-"358","TRUENO I (IND)","mayo",7,310
-"359","TUAREG I (ART)","mayo",14,360
-"360","VALENTINA (L","mayo",17,171
-"361","ABEL (ART)","junio",13,182
-"362","ABRAHAM (ART)","junio",1,206
-"363","ALBIMER (IND)","junio",0,5
-"364","AMADEUS (ART)","junio",21,269
-"365","AMADEUS II (ART)","junio",11,372
-"366","ANGAMOS 2 (IND)","junio",5,547
-"367","ANGAMOS 4 (IND)","junio",3,616
-"368","ANGAMOS 9 (IND)","junio",0,551
-"369","ARKHOS I (ART)","junio",39,533
-"370","ARKHOS II (ART)","junio",40,530
-"371","ARKHOS III (ART)","junio",17,614
-"372","ARKHOS IV (ART)","junio",37,535
-"373","ATACAMA IV (IND)","junio",6,54
-"374","ATACAMA V (IND)","junio",0,17
-"375","AUDAZ (IND)","junio",9,301
-"376","AVENTURERO (IND)","junio",2,19
-"377","BANDURRIA (IND)","junio",0,0
-"378","BARRACUDA IV (IND)","junio",0,11
-"379","CESAR MIGUEL (ART)","junio",4,261
-"380","CHANGO I (ART)","junio",43,591
-"381","CLAUDIA ALEJANDRA (IND)","junio",7,44
-"382","CORPESCA 2 (IND)","junio",0,18
-"383","COYI I (ART)","junio",10,336
-"384","COYI II (ART)","junio",29,435
-"385","DANIEL (ART)","junio",0,3
-"386","DOÑA PILAR II (ART)","junio",26,521
-"387","DON ERNESTO AYALA MARFIL (IND)","junio",27,556
-"388","DON JOSE I (ART)","junio",16,220
-"389","ELVA S (ART","junio",24,436
-"390","EPERVA 49 (IND)","junio",0,1
-"391","EPERVA 51 (IND)","junio",16,564
-"392","EPERVA 56 (IND)","junio",0,553
-"393","EPERVA 61 (IND)","junio",5,569
-"394","EPERVA 62 (IND)","junio",13,550
-"395","GIANPIERO I","junio",34,142
-"396","GUAJACHE II (ART)","junio",25,564
-"397","HUMBOLDT II (ART)","junio",7,149
-"398","HURACAN (IND)","junio",5,12
-"399","ICALMA (IND)","junio",23,574
-"400","INTREPIDO (IND)","junio",0,1
-"401","ISIDORA I (ART)","junio",22,205
-"402","J J (ART)","junio",42,523
-"403","JOSUE (ART)","junio",8,194
-"404","KAREN PAMELA (ART)","junio",0,6
-"405","KAWESCAR (ART)","junio",5,100
-"406","LICANTEN (IND)","junio",1,23
-"407","LOA 7 (IND)","junio",7,36
-"408","LOBO DE AFUERA IV (ART)","junio",30,523
-"409","LOBO DE AFUERA V (ART)","junio",55,583
-"410","MARCELO RODOLFO (ART)","junio",2,85
-"411","MARLIN (IND)","junio",0,2
-"412","MERO (IND)","junio",2,22
-"413","PARINA I (IND)","junio",1,557
-"414","PELICANO (IND)","junio",17,498
-"415","PETROHUE I (ART)","junio",24,533
-"416","PETROHUE II (ART)","junio",16,380
-"417","PETROHUE III (ART)","junio",20,416
-"418","PUCARA (IND)","junio",12,555
-"419","RELAMPAGO (IND)","junio",0,0
-"420","RINA F Y M","junio",18,253
-"421","SALMON (IND)","junio",16,42
-"422","SANTA MARGARITA I (L","junio",4,320
-"423","SANTIAGO (ART)","junio",7,420
-"424","SHALOM II (ART)","junio",19,402
-"425","TORNADO (IND)","junio",1,14
-"426","TRUENO I (IND)","junio",3,449
-"427","TUAREG I (ART)","junio",17,524
-"428","VALENCIA (ART)","junio",0,20
-"429","VALENTINA (L","junio",23,395
-"430","ABEL (ART)","julio",0,325
-"431","ABRAHAM (ART)","julio",0,139
-"432","ALBIMER (IND)","julio",3,9
-"433","ALERCE (IND)","julio",0,6
-"434","AMADEUS (ART)","julio",0,161
-"435","AMADEUS II (ART)","julio",0,87
-"436","ANGAMOS 2 (IND)","julio",9,610
-"437","ANGAMOS 4 (IND)","julio",0,610
-"438","ANGAMOS 9 (IND)","julio",3,489
-"439","ARKHOS I (ART)","julio",5,434
-"440","ARKHOS II (ART)","julio",7,451
-"441","ARKHOS III (ART)","julio",6,416
-"442","ARKHOS IV (ART)","julio",4,414
-"443","ATACAMA V (IND)","julio",0,16
-"444","AVENTURERO (IND)","julio",2,23
-"445","BANDURRIA (IND)","julio",6,9
-"446","CESAR MIGUEL (ART)","julio",0,422
-"447","CHANGO I (ART)","julio",4,266
-"448","CLAUDIA ALEJANDRA (IND)","julio",3,15
-"449","CORPESCA 2 (IND)","julio",0,19
-"450","COSTA GRANDE 1 (IND)","julio",0,16
-"451","COYI I (ART)","julio",2,262
-"452","COYI II (ART)","julio",4,288
-"453","DOÑA PILAR II (ART)","julio",1,220
-"454","DON ERNESTO AYALA MARFIL (IND)","julio",1,605
-"455","DON LUCHO (ART)","julio",0,65
-"456","ELVA S (ART","julio",6,339
-"457","EPERVA 51 (IND)","julio",8,611
-"458","EPERVA 56 (IND)","julio",0,488
-"459","EPERVA 61 (IND)","julio",6,491
-"460","EPERVA 62 (IND)","julio",6,541
-"461","EPERVA 65 (IND)","julio",0,9
-"462","GIANPIERO I","julio",0,32
-"463","GUAJACHE II (ART)","julio",2,237
-"464","HUMBOLDT II (ART)","julio",7,165
-"465","HURACAN (IND)","julio",4,53
-"466","ICALMA (IND)","julio",5,71
-"467","INTREPIDO (IND)","julio",6,9
-"468","ISIDORA I (ART)","julio",5,101
-"469","J J (ART)","julio",8,421
-"470","JOSUE (ART)","julio",8,133
-"471","KAREN PAMELA (ART)","julio",0,13
-"472","KAWESCAR (ART)","julio",0,86
-"473","LOBO DE AFUERA IV (ART)","julio",4,610
-"474","LOBO DE AFUERA V (ART)","julio",7,610
-"475","LORETO V (ART)","julio",0,14
-"476","MARCELO RODOLFO (ART)","julio",1,46
-"477","MERO (IND)","julio",0,16
-"478","PARINA I (IND)","julio",3,600
-"479","PELICANO (IND)","julio",3,609
-"480","PETROHUE I (ART)","julio",7,416
-"481","PETROHUE II (ART)","julio",0,230
-"482","PETROHUE III (ART)","julio",0,288
-"483","PUCARA (IND)","julio",8,543
-"484","RELAMPAGO (IND)","julio",0,15
-"485","SALMON (IND)","julio",9,129
-"486","SAN JORGE I (IND)","julio",6,9
-"487","SANTA MARGARITA I (L","julio",0,339
-"488","SANTIAGO (ART)","julio",0,85
-"489","SHALOM II (ART)","julio",0,15
-"490","TORNADO (IND)","julio",8,52
-"491","TRUENO I (IND)","julio",3,549
-"492","TUAREG I (ART)","julio",4,459
-"493","VALENCIA (ART)","julio",0,7
-"494","VALENTINA (L","julio",2,120
+"34","EPERVA 51 (IND)","enero",4,43
+"35","EPERVA 56 (IND)","enero",0,1
+"36","EPERVA 61 (IND)","enero",8,51
+"37","EPERVA 62 (IND)","enero",2,45
+"38","GIANPIERO I","enero",0,4
+"39","GUAJACHE II (ART)","enero",6,24
+"40","HALCON (IND)","enero",0,10
+"41","HUMBOLDT II (ART)","enero",15,32
+"42","HURACAN (IND)","enero",3,22
+"43","ICALMA (IND)","enero",10,58
+"44","INTREPIDO (IND)","enero",0,8
+"45","ISAURA I (ART)","enero",2,8
+"46","ISIDORA I     ART","enero",1,2
+"47","J J (ART)","enero",11,23
+"48","JOSUE (ART)","enero",8,24
+"49","KAREN PAMELA (ART)","enero",4,16
+"50","KAWESCAR (ART)","enero",0,1
+"51","LOA 2 (IND)","enero",2,7
+"52","LOBO DE AFUERA IV (ART)","enero",11,26
+"53","LOBO DE AFUERA V (ART)","enero",9,25
+"54","LORETO V (ART)","enero",7,24
+"55","MARCELO RODOLFO (ART)","enero",8,22
+"56","MARLIN (IND)","enero",0,2
+"57","MERO (IND)","enero",0,9
+"58","PARINA I (IND)","enero",6,51
+"59","PELICANO (IND)","enero",9,21
+"60","PETROHUE I (ART)","enero",8,24
+"61","PETROHUE II (ART)","enero",6,26
+"62","PETROHUE III (ART)","enero",7,22
+"63","PUCARA (IND)","enero",4,61
+"64","SALMON (IND)","enero",0,16
+"65","SAN JORGE I (IND)","enero",0,11
+"66","SHALON II (ART)","enero",7,24
+"67","TORNADO (IND)","enero",0,20
+"68","TUAREG I (ART)","enero",8,23
+"69","VALENCIA (ART)","enero",10,30
+"70","VALENTINA (L","enero",0,4
+"71","ABRAHAM (ART)","febrero",2,3
+"72","ANGAMOS 2 (IND)","febrero",1,5
+"73","ANGAMOS 4 (IND)","febrero",1,3
+"74","ANGAMOS 9 (IND)","febrero",0,0
+"75","AUDAZ (IND)","febrero",2,31
+"76","BLANQUILLO (IND)","febrero",0,3
+"77","CESAR MIGUEL (ART)","febrero",1,2
+"78","CHENCO (ART)","febrero",14,52
+"79","CORPESCA I (IND)","febrero",0,6
+"80","DON ERNESTO AYALA MARFIL (IND)","febrero",1,3
+"81","DON JOSE I (ART)","febrero",1,1
+"82","EPERVA 51 (IND)","febrero",1,21
+"83","EPERVA 56 (IND)","febrero",0,30
+"84","EPERVA 62 (IND)","febrero",2,5
+"85","GIANPIERO I","febrero",1,1
+"86","ICALMA (IND)","febrero",1,27
+"87","ISIDORA I     ART","febrero",1,1
+"88","JOSUE (ART)","febrero",0,1
+"89","JUDITH (ART)","febrero",0,1
+"90","LAZARO (ART)","febrero",81,86
+"91","LOBO DE AFUERA IV (ART)","febrero",0,1
+"92","LORETO V (ART)","febrero",0,1
+"93","PARINA I (IND)","febrero",2,6
+"94","PELICANO (IND)","febrero",1,1
+"95","PETROHUE I (ART)","febrero",1,2
+"96","PUCARA (IND)","febrero",0,1
+"97","RELAMPAGO (IND)","febrero",0,8
+"98","TUAREG I (ART)","febrero",0,3
+"99","VALENTINA (L","febrero",0,4
+"100","ABEL (ART)","marzo",22,77
+"101","ABRAHAM (ART)","marzo",21,45
+"102","ALBIMER (IND)","marzo",8,28
+"103","AMADEUS II (ART)","marzo",19,46
+"104","ANGAMOS 2 (IND)","marzo",8,64
+"105","ANGAMOS 3 (IND)","marzo",2,5
+"106","ANGAMOS 4 (IND)","marzo",5,55
+"107","ANGAMOS 9 (IND)","marzo",3,54
+"108","ARKHOS I (ART)","marzo",23,57
+"109","ARKHOS II (ART)","marzo",24,65
+"110","ARKHOS III (ART)","marzo",28,73
+"111","ARKHOS IV (ART)","marzo",26,64
+"112","ATACAMA IV (IND)","marzo",3,5
+"113","ATACAMA V (IND)","marzo",12,22
+"114","AUDAZ (IND)","marzo",7,51
+"115","AVENTURERO (IND)","marzo",1,4
+"116","BARRACUDA IV (IND)","marzo",7,12
+"117","CESAR MIGUEL (ART)","marzo",25,66
+"118","CHANGO I (ART)","marzo",6,32
+"119","CHENCO (ART)","marzo",13,31
+"120","CLAUDIA ALEJANDRA (IND)","marzo",5,9
+"121","CORPESCA 2 (IND)","marzo",0,3
+"122","CORPESCA I (IND)","marzo",8,14
+"123","COSTA GRANDE 1 (IND)","marzo",6,13
+"124","COYI I (ART)","marzo",25,72
+"125","COYI II (ART)","marzo",24,59
+"126","DANIEL (ART)","marzo",25,88
+"127","DOÑA PILAR II (ART)","marzo",25,72
+"128","DON ERNESTO AYALA MARFIL (IND)","marzo",5,52
+"129","DON GINO (IND)","marzo",5,11
+"130","DON JOSE I (ART)","marzo",26,62
+"131","EPERVA 51 (IND)","marzo",6,53
+"132","EPERVA 56 (IND)","marzo",9,61
+"133","EPERVA 61 (IND)","marzo",10,51
+"134","EPERVA 62 (IND)","marzo",11,55
+"135","EPERVA 65 (IND)","marzo",11,14
+"136","EPERVA 66 (IND)","marzo",8,13
+"137","GIANPIERO I","marzo",35,76
+"138","GUAJACHE II (ART)","marzo",22,57
+"139","HURACAN (IND)","marzo",5,9
+"140","ICALMA (IND)","marzo",9,63
+"141","ISAURA I (ART)","marzo",15,49
+"142","ISIDORA I (ART)","marzo",3,31
+"143","ISIDORA I     ART","marzo",23,61
+"144","J J (ART)","marzo",32,78
+"145","JOSUE (ART)","marzo",34,93
+"146","JUAN I (L","marzo",236,270
+"147","JUDITH (ART)","marzo",0,2
+"148","KAREN PAMELA (ART)","marzo",0,1
+"149","KAWESCAR (ART)","marzo",23,58
+"150","LAZARO (ART)","marzo",42,51
+"151","LOBO DE AFUERA IV (ART)","marzo",23,76
+"152","LOBO DE AFUERA V (ART)","marzo",20,75
+"153","LORETO V (ART)","marzo",23,59
+"154","MARCELO RODOLFO (ART)","marzo",34,73
+"155","MARLIN (IND)","marzo",7,10
+"156","MERO (IND)","marzo",6,11
+"157","PARINA I (IND)","marzo",6,52
+"158","PELICANO (IND)","marzo",26,67
+"159","PETROHUE I (ART)","marzo",24,69
+"160","PETROHUE II (ART)","marzo",26,66
+"161","PETROHUE III (ART)","marzo",22,69
+"162","PURISIMA DEL CARMEN (L","marzo",68,109
+"163","RELAMPAGO (IND)","marzo",3,6
+"164","ROCIO (L","marzo",128,173
+"165","SALMON (IND)","marzo",4,5
+"166","SANTA MARGARITA I (L","marzo",33,68
+"167","SHALOM II (ART)","marzo",14,45
+"168","SHALON II (ART)","marzo",15,31
+"169","TUAREG I (ART)","marzo",26,72
+"170","VALENCIA (ART)","marzo",15,56
+"171","VALENTINA (L","marzo",31,92
+"172","ABEL (ART)","abril",30,131
+"173","ALBIMER (IND)","abril",24,41
+"174","AMADEUS (ART)","abril",39,157
+"175","AMADEUS II (ART)","abril",52,121
+"176","ANGAMOS 2 (IND)","abril",21,90
+"177","ANGAMOS 3 (IND)","abril",12,24
+"178","ANGAMOS 4 (IND)","abril",19,75
+"179","ANGAMOS 9 (IND)","abril",3,41
+"180","ARKHOS I (ART)","abril",31,107
+"181","ARKHOS II (ART)","abril",47,120
+"182","ARKHOS III (ART)","abril",35,113
+"183","ARKHOS IV (ART)","abril",37,88
+"184","ATACAMA IV (IND)","abril",24,33
+"185","ATACAMA V (IND)","abril",21,47
+"186","AUDAZ (IND)","abril",29,96
+"187","AVENTURERO (IND)","abril",20,31
+"188","BARRACUDA IV (IND)","abril",12,20
+"189","CESAR MIGUEL (ART)","abril",39,99
+"190","CHANGO I (ART)","abril",43,129
+"191","CLAUDIA ALEJANDRA (IND)","abril",21,46
+"192","CORPESCA 2 (IND)","abril",4,6
+"193","CORPESCA I (IND)","abril",12,22
+"194","COSTA GRANDE 1 (IND)","abril",9,26
+"195","COYI I (ART)","abril",50,174
+"196","COYI II (ART)","abril",45,118
+"197","DANIEL (ART)","abril",24,75
+"198","DOÑA PILAR II (ART)","abril",44,160
+"199","DON ERNESTO AYALA MARFIL (IND)","abril",17,73
+"200","DON GINO (IND)","abril",20,37
+"201","DON JOSE I (ART)","abril",41,105
+"202","EPERVA 51 (IND)","abril",18,74
+"203","EPERVA 56 (IND)","abril",10,65
+"204","EPERVA 61 (IND)","abril",36,112
+"205","EPERVA 62 (IND)","abril",19,73
+"206","EPERVA 66 (IND)","abril",5,8
+"207","GIANPIERO I","abril",61,149
+"208","GUAJACHE II (ART)","abril",41,134
+"209","HALCON (IND)","abril",12,17
+"210","HUMBOLDT II (ART)","abril",34,111
+"211","ICALMA (IND)","abril",16,86
+"212","INTREPIDO (IND)","abril",2,5
+"213","ISIDORA I (ART)","abril",28,93
+"214","J J (ART)","abril",45,149
+"215","JOSUE (ART)","abril",46,131
+"216","JUAN I (L","abril",102,121
+"217","KAREN PAMELA (ART)","abril",46,151
+"218","KAWESCAR (ART)","abril",47,125
+"219","LICANTEN (IND)","abril",18,48
+"220","LOA 1 (IND)","abril",21,34
+"221","LOA 2 (IND)","abril",21,30
+"222","LOA 7 (IND)","abril",9,14
+"223","LOBO DE AFUERA IV (ART)","abril",41,121
+"224","LOBO DE AFUERA V (ART)","abril",49,157
+"225","LORETO V (ART)","abril",51,149
+"226","MARCELO RODOLFO (ART)","abril",49,182
+"227","MARISOL III (L","abril",21,28
+"228","MARLIN (IND)","abril",26,49
+"229","MERO (IND)","abril",12,36
+"230","PARINA I (IND)","abril",12,59
+"231","PELICANO (IND)","abril",46,141
+"232","PETROHUE I (ART)","abril",27,90
+"233","PETROHUE II (ART)","abril",29,136
+"234","PETROHUE III (ART)","abril",37,137
+"235","RELAMPAGO (IND)","abril",0,2
+"236","ROCIO (L","abril",72,82
+"237","SAN JORGE I (IND)","abril",15,18
+"238","SANTA MARGARITA I (L","abril",29,114
+"239","SANTIAGO (ART)","abril",51,109
+"240","SHALOM II (ART)","abril",42,142
+"241","TRUENO I (IND)","abril",1,3
+"242","TUAREG I (ART)","abril",30,121
+"243","VALENCIA (ART)","abril",17,59
+"244","VALENTINA (L","abril",43,123
+"245","ABEL (ART)","mayo",36,117
+"246","ABRAHAM (ART)","mayo",19,82
+"247","ALBIMER (IND)","mayo",0,8
+"248","ALERCE (IND)","mayo",0,11
+"249","AMADEUS (ART)","mayo",48,154
+"250","AMADEUS II (ART)","mayo",45,138
+"251","ANGAMOS 2 (IND)","mayo",17,46
+"252","ANGAMOS 3 (IND)","mayo",10,42
+"253","ANGAMOS 4 (IND)","mayo",0,10
+"254","ANGAMOS 9 (IND)","mayo",7,30
+"255","ARKHOS I (ART)","mayo",39,128
+"256","ARKHOS II (ART)","mayo",56,148
+"257","ARKHOS III (ART)","mayo",38,127
+"258","ARKHOS IV (ART)","mayo",40,131
+"259","ATACAMA IV (IND)","mayo",0,23
+"260","AUDAZ (IND)","mayo",9,21
+"261","AVENTURERO (IND)","mayo",0,1
+"262","BANDURRIA (IND)","mayo",3,13
+"263","BARRACUDA IV (IND)","mayo",2,15
+"264","BLANQUILLO (IND)","mayo",0,4
+"265","CESAR MIGUEL (ART)","mayo",28,97
+"266","CHANGO I (ART)","mayo",28,101
+"267","CLAUDIA ALEJANDRA (IND)","mayo",1,15
+"268","COLLEN (IND)","mayo",1,38
+"269","CORPESCA 2 (IND)","mayo",4,16
+"270","COYI I (ART)","mayo",51,176
+"271","COYI II (ART)","mayo",65,182
+"272","DANIEL (ART)","mayo",28,80
+"273","DOÑA PILAR II (ART)","mayo",41,168
+"274","DON ERNESTO AYALA MARFIL (IND)","mayo",23,80
+"275","DON GINO (IND)","mayo",0,5
+"276","DON JOSE I (ART)","mayo",26,92
+"277","ELVA S (ART","mayo",32,73
+"278","EPERVA 49 (IND)","mayo",13,56
+"279","EPERVA 51 (IND)","mayo",8,27
+"280","EPERVA 56 (IND)","mayo",11,35
+"281","EPERVA 61 (IND)","mayo",5,35
+"282","EPERVA 62 (IND)","mayo",3,17
+"283","EPERVA 65 (IND)","mayo",0,4
+"284","GIANPIERO I","mayo",15,60
+"285","GUAJACHE II (ART)","mayo",37,143
+"286","HALCON (IND)","mayo",5,40
+"287","HUMBOLDT II (ART)","mayo",47,109
+"288","HURACAN (IND)","mayo",1,15
+"289","ICALMA (IND)","mayo",24,80
+"290","INTREPIDO (IND)","mayo",12,39
+"291","ISIDORA I (ART)","mayo",18,59
+"292","J J (ART)","mayo",50,131
+"293","JOSUE (ART)","mayo",16,59
+"294","JUAN I (L","mayo",307,334
+"295","KAREN PAMELA (ART)","mayo",49,151
+"296","KAWESCAR (ART)","mayo",12,30
+"297","LICANTEN (IND)","mayo",2,16
+"298","LOA 1 (IND)","mayo",0,22
+"299","LOA 2 (IND)","mayo",0,22
+"300","LOBO DE AFUERA IV (ART)","mayo",44,137
+"301","LOBO DE AFUERA V (ART)","mayo",46,131
+"302","LORETO V (ART)","mayo",18,54
+"303","MARCELO RODOLFO (ART)","mayo",34,97
+"304","MARISOL III (L","mayo",138,140
+"305","MARLIN (IND)","mayo",4,27
+"306","MERO (IND)","mayo",9,44
+"307","PARINA I (IND)","mayo",9,33
+"308","PELICANO (IND)","mayo",18,78
+"309","PETROHUE I (ART)","mayo",41,143
+"310","PETROHUE II (ART)","mayo",47,165
+"311","PETROHUE III (ART)","mayo",42,158
+"312","PUCARA (IND)","mayo",5,44
+"313","RELAMPAGO (IND)","mayo",8,32
+"314","ROCIO (L","mayo",45,50
+"315","SALMON (IND)","mayo",9,40
+"316","SANTA MARGARITA I (L","mayo",18,82
+"317","SANTIAGO (ART)","mayo",7,24
+"318","SHALOM II (ART)","mayo",44,145
+"319","TORNADO (IND)","mayo",10,36
+"320","TRUENO I (IND)","mayo",7,57
+"321","TUAREG I (ART)","mayo",12,62
+"322","VALENTINA (L","mayo",17,56
+"323","ABEL (ART)","junio",12,42
+"324","ABRAHAM (ART)","junio",1,15
+"325","ALBIMER (IND)","junio",0,4
+"326","AMADEUS (ART)","junio",21,72
+"327","AMADEUS II (ART)","junio",11,62
+"328","ANGAMOS 2 (IND)","junio",5,32
+"329","ANGAMOS 4 (IND)","junio",3,25
+"330","ANGAMOS 9 (IND)","junio",0,13
+"331","ARKHOS I (ART)","junio",38,134
+"332","ARKHOS II (ART)","junio",40,124
+"333","ARKHOS III (ART)","junio",17,100
+"334","ARKHOS IV (ART)","junio",36,138
+"335","ATACAMA IV (IND)","junio",6,42
+"336","ATACAMA V (IND)","junio",0,16
+"337","AUDAZ (IND)","junio",0,0
+"338","AVENTURERO (IND)","junio",2,19
+"339","BANDURRIA (IND)","junio",0,0
+"340","BARRACUDA IV (IND)","junio",0,6
+"341","CESAR MIGUEL (ART)","junio",4,7
+"342","CHANGO I (ART)","junio",42,157
+"343","CLAUDIA ALEJANDRA (IND)","junio",7,36
+"344","CORPESCA 2 (IND)","junio",0,18
+"345","COYI I (ART)","junio",10,67
+"346","COYI II (ART)","junio",28,127
+"347","DANIEL (ART)","junio",0,3
+"348","DOÑA PILAR II (ART)","junio",26,130
+"349","DON ERNESTO AYALA MARFIL (IND)","junio",27,82
+"350","DON JOSE I (ART)","junio",16,62
+"351","ELVA S (ART","junio",24,114
+"352","EPERVA 49 (IND)","junio",0,1
+"353","EPERVA 51 (IND)","junio",15,74
+"354","EPERVA 56 (IND)","junio",0,7
+"355","EPERVA 61 (IND)","junio",4,13
+"356","EPERVA 62 (IND)","junio",13,60
+"357","GIANPIERO I","junio",34,82
+"358","GUAJACHE II (ART)","junio",24,104
+"359","HUMBOLDT II (ART)","junio",7,32
+"360","HURACAN (IND)","junio",5,12
+"361","ICALMA (IND)","junio",23,79
+"362","INTREPIDO (IND)","junio",0,1
+"363","ISIDORA I (ART)","junio",22,58
+"364","J J (ART)","junio",41,126
+"365","JOSUE (ART)","junio",8,46
+"366","KAREN PAMELA (ART)","junio",0,5
+"367","KAWESCAR (ART)","junio",5,14
+"368","LICANTEN (IND)","junio",1,16
+"369","LOA 7 (IND)","junio",7,26
+"370","LOBO DE AFUERA IV (ART)","junio",30,76
+"371","LOBO DE AFUERA V (ART)","junio",55,162
+"372","MARCELO RODOLFO (ART)","junio",2,18
+"373","MARLIN (IND)","junio",0,2
+"374","MERO (IND)","junio",2,17
+"375","PARINA I (IND)","junio",1,10
+"376","PELICANO (IND)","junio",17,89
+"377","PETROHUE I (ART)","junio",21,117
+"378","PETROHUE II (ART)","junio",16,97
+"379","PETROHUE III (ART)","junio",20,95
+"380","PUCARA (IND)","junio",11,67
+"381","RELAMPAGO (IND)","junio",0,0
+"382","RINA F Y M","junio",18,50
+"383","SALMON (IND)","junio",16,36
+"384","SANTA MARGARITA I (L","junio",4,29
+"385","SANTIAGO (ART)","junio",7,29
+"386","SHALOM II (ART)","junio",17,67
+"387","TORNADO (IND)","junio",1,14
+"388","TRUENO I (IND)","junio",3,44
+"389","TUAREG I (ART)","junio",17,66
+"390","VALENCIA (ART)","junio",0,8
+"391","VALENTINA (L","junio",23,89
+"392","ABEL (ART)","julio",0,31
+"393","ABRAHAM (ART)","julio",0,10
+"394","ALBIMER (IND)","julio",3,9
+"395","ALERCE (IND)","julio",0,3
+"396","AMADEUS (ART)","julio",0,64
+"397","AMADEUS II (ART)","julio",0,50
+"398","ANGAMOS 2 (IND)","julio",9,21
+"399","ANGAMOS 4 (IND)","julio",0,0
+"400","ANGAMOS 9 (IND)","julio",3,46
+"401","ARKHOS I (ART)","julio",5,65
+"402","ARKHOS II (ART)","julio",7,72
+"403","ARKHOS III (ART)","julio",5,87
+"404","ARKHOS IV (ART)","julio",4,67
+"405","ATACAMA V (IND)","julio",0,16
+"406","AVENTURERO (IND)","julio",2,23
+"407","BANDURRIA (IND)","julio",6,9
+"408","CESAR MIGUEL (ART)","julio",0,45
+"409","CHANGO I (ART)","julio",4,81
+"410","CLAUDIA ALEJANDRA (IND)","julio",3,10
+"411","CORPESCA 2 (IND)","julio",0,19
+"412","COSTA GRANDE 1 (IND)","julio",0,16
+"413","COYI I (ART)","julio",2,75
+"414","COYI II (ART)","julio",4,89
+"415","DOÑA PILAR II (ART)","julio",1,13
+"416","DON ERNESTO AYALA MARFIL (IND)","julio",1,16
+"417","ELVA S (ART","julio",6,53
+"418","EPERVA 51 (IND)","julio",8,34
+"419","EPERVA 56 (IND)","julio",0,25
+"420","EPERVA 61 (IND)","julio",6,48
+"421","EPERVA 62 (IND)","julio",6,50
+"422","EPERVA 65 (IND)","julio",0,6
+"423","GIANPIERO I","julio",0,14
+"424","GUAJACHE II (ART)","julio",2,74
+"425","HUMBOLDT II (ART)","julio",7,56
+"426","HURACAN (IND)","julio",4,45
+"427","ICALMA (IND)","julio",5,15
+"428","INTREPIDO (IND)","julio",6,9
+"429","ISIDORA I (ART)","julio",5,47
+"430","J J (ART)","julio",8,71
+"431","JOSUE (ART)","julio",8,58
+"432","KAREN PAMELA (ART)","julio",0,9
+"433","KAWESCAR (ART)","julio",0,5
+"434","LOBO DE AFUERA IV (ART)","julio",4,36
+"435","LOBO DE AFUERA V (ART)","julio",7,59
+"436","LORETO V (ART)","julio",0,10
+"437","MARCELO RODOLFO (ART)","julio",1,28
+"438","MERO (IND)","julio",0,16
+"439","PARINA I (IND)","julio",3,12
+"440","PELICANO (IND)","julio",3,32
+"441","PETROHUE I (ART)","julio",7,74
+"442","PETROHUE II (ART)","julio",0,69
+"443","PETROHUE III (ART)","julio",0,37
+"444","PUCARA (IND)","julio",8,71
+"445","RELAMPAGO (IND)","julio",0,15
+"446","SALMON (IND)","julio",9,98
+"447","SAN JORGE I (IND)","julio",6,9
+"448","SANTA MARGARITA I (L","julio",0,9
+"449","SHALOM II (ART)","julio",0,7
+"450","TORNADO (IND)","julio",8,45
+"451","TRUENO I (IND)","julio",3,29
+"452","TUAREG I (ART)","julio",4,69
+"453","VALENCIA (ART)","julio",0,7
+"454","VALENTINA (L","julio",2,55
