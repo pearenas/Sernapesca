@@ -24,7 +24,7 @@ library(knitr)
 &nbsp;
 
 ## Resumen
-En este documento se muestran los resultados usando la base de datos VMS de Chile para evaluar el esfuerzo pesquero dentro de las 15 regiones por las cuales se divide la zona economica exclusiva de Chile. De acuerdo con lo estipulado, el **esfuerzo pesquero no incluye embarcaciones acuícolas ni de transporte y se evaluó por mes, por región y por embarcación desde enero a julio del 2020**. \   
+En este documento se muestran los resultados usando la base de datos VMS de Chile para evaluar el esfuerzo pesquero dentro de las 15 regiones por las cuales se divide la zona económica exclusiva (ZEE) de Chile. De acuerdo con lo estipulado, el **esfuerzo pesquero no incluye embarcaciones acuícolas ni de transporte y se evaluó por mes, por región y por embarcación desde enero a julio del 2020**. En total, todos los datos VMS de Chile de febrero 2019 a agosto 2020, contienen información de 1,108 embarcaciones (141 industriales y 967 artesanales). Los datos VMS que se usaron para este análisis: embarcaciones industriales y artesanales dentro de la ZEE de Chile de enero a julio del 2020, contienen información de **754 embarcaciones (115 industriales y 639 artesanales)**.  \   
 
 &nbsp;
 
@@ -32,23 +32,23 @@ Conforme a la base de datos analizada, los resultados sugieren que el nivel más
 
 &nbsp;
 
-A continuación se presentan mapas y tablas con el esfuerzo pesquero y horas totales (incluyendo actividad pesquera y de transito) de todas las embarcaciones dentro de los datos VMS de Chile, de enero a julio del 2020. Los tres tipos de entregables son los siguientes: **1.)** Mapas y GIF por mes (enero a julio, 2020) del esfuerzo pesquero por regiones de la ZEE de Chile **2.)** Tablas del esfuerzo pesquero por región, desglosado por embarcación y por mes **3.)** Gráficas del esfuerzo pesquero por mes y por cada una de las 15 regiones, al igual que las tablas con información agregada, usadas para crearlas.  \   
+A continuación se presentan mapas y tablas con el esfuerzo pesquero y horas totales (incluyendo actividad pesquera y de tránsito) de todas las embarcaciones dentro de los datos VMS de Chile, de enero a julio del 2020. Los tres tipos de entregables son los siguientes: **1.)** Mapas y GIF por mes (enero a julio, 2020) del esfuerzo pesquero por regiones de la ZEE de Chile **2.)** Tablas del esfuerzo pesquero por región, desglosado por embarcación y por mes **3.)** Gráficas del esfuerzo pesquero por mes y por cada una de las 15 regiones, al igual que las tablas con información agregada, usadas para crearlas.  \   
 
 &nbsp;
 
-Este análisis es útil para identificar el esfuerzo pesquero y horas totales de tránsito y pesca de la flota Chilena, desglosado por región y por mes de enero a julio del 2020. Esperamos esta información ayude a establecer una base del esfuerzo pesquero espacial y temporal en Chile para así poder detectar cambios e informar una gestión adaptativa que asigna recursos a las zonas y en las fechas que se necesiten.
+Este análisis es útil para identificar el esfuerzo pesquero y horas totales de tránsito y pesca de la flota Chilena, desglosado por región y por mes de enero a julio del 2020. Esperamos que esta información ayude a establecer una base del esfuerzo pesquero espacial y temporal en Chile para así poder detectar cambios e informar una gestión adaptativa que asigna recursos a las zonas y en las fechas que se necesiten.
 
 &nbsp;
 
 
 ## Mapas
-Esfuerzo pesquero representado como **horas de pesca por kilometro cuadrado**. Solamente se incluyen dos mapas de enero en este reporte, pero los mapas para el resto de los meses (febrero a julio 2020) están disponibles para ser entregaos como archivos individuales. 
+Esfuerzo pesquero representado como **horas de pesca por kilómetro cuadrado**. Solamente se incluyen dos mapas de enero en este reporte, pero los mapas para el resto de los meses (febrero a julio 2020) están disponibles para ser entregados como archivos individuales. 
 
 ![](/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/ZoomOut/1_VMS_CH_Jan_2020.png)
 ![](/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/ZoomIn/1_VMSz_CH_Jan_2020.png)
 
 ## Tablas
-Tablas del **esfuerzo pesquero por región, desglosado por embarcación y por mes**. A continuación se muestran únicamente las primeras diez filas de la tabla de la región de Arica, pero las tablas para las otras 14 regiones y toda la ZEE en conjunto, están disponibles para ser entregaos como archivos individuales.
+Tablas del **esfuerzo pesquero por región, desglosado por embarcación y por mes**. A continuación se muestran únicamente las primeras diez filas de la tabla de la región de Arica, pero las tablas para las otras 14 regiones y toda la ZEE en conjunto, están disponibles para ser entregadas como archivos individuales.
 
 
 ```{r, echo=FALSE}

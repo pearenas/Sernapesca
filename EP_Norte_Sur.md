@@ -1,7 +1,7 @@
 SERNAPESCA Chile VMS Fishing Effort in Northern and Southern Regions
 ================
 Esteban Arenas
-8/12/2020
+8/27/2020
 
 Objective: Sernapesca, the Chilean national government agency in charge
 of regulating fisheries and aquaculture, is interested in having a
@@ -204,6 +204,17 @@ Extracting only Chile VMS Fishing Effort. This was the data set that
 ended up being used for the analysis because of what was explained
 above.
 
+Worth noting here that around the bottom of this markdown is the code
+used to determine the number of individual vessels in: - **The data used
+for this analysis**: industrial and artisanal vessels within the Chilean
+EEZ and for the months of January through July of 2020 (**754 total
+vessels - 115 industrial and 639 artisanal**). Found in
+“Resumen\_Embarcaciones\_Del\_Estudio.csv” - **All of the Chile VMS
+data**: total number of industrial and artisanal vessels in the entire
+Chile VMS data set,Feb 2019 - Aug 2020. (**1,108 total vessels - 141
+industrial and 967 artisanal**). Found in
+“Resumen\_Embarcaciones\_VMS\_Total.csv”
+
 ``` r
 query_string <- glue::glue('
 CREATE TEMP FUNCTION hours_diff_abs(timestamp1 TIMESTAMP,
@@ -292,12 +303,22 @@ UniqueVMSNamesChile <- DBI::dbGetQuery(con, query_string)
 # write.csv(UniqueVMSNamesChile, file = "UniqueVMSNamesChile.csv")
 ```
 
-Tables that are imported below were clipped in QGIS to the areas of
-interest. These tables are aggregated by vessel and month in order to
-have one table per area of interest. The result are tables for each of
-the 15 areas, containing total hours and fishing hours for each vessel
-for each month (Jan - July, 2020). An example table for the first region
-is provided below (ARICA\_Horas). Only first ten lines are shown
+**“VMS\_Hours\_Final.csv”** (generated above) represents all VMS data
+filtered to only include observations between January 1st and July 31st,
+2020, exclusively belonging to industrial and/or artisanal vessels
+(excluding aquaculture and transport classified vessels). Consequently,
+due to concerns that the GFW algorithm might be more likely to
+incorrectly classify vessel activity as fishing within the first
+nautical mile from shore, data within this first nautical mile was
+removed from **“VMS\_Hours\_Final.csv”** using QGIS. QGIS was also used
+to segment **“VMS\_Hours\_Final.csv”** into the 15 regions of interest.
+
+The tables for the 15 regions are then imported below. These imported
+tables are aggregated by vessel and month in order to have one table per
+area of interest. The result are tables for each of the 15 regions,
+containing total hours and fishing hours for each vessel for each month
+(Jan - July, 2020). An example table for the first region is provided
+below (ARICA\_Horas). Only the first ten lines are shown.
 
 ``` r
 #Import lines of interest to be displayed on maps
@@ -925,6 +946,100 @@ VMS_JunFH <- VMS_FHHoursByMonth[VMS_FHHoursByMonth$Month == 6,]
 VMS_JulFH <- VMS_FHHoursByMonth[VMS_FHHoursByMonth$Month == 7,]
 ```
 
+Determining total number of industrial and artisanal vessels in the data
+cropped out for this analysis: within the Chilean EEZ and for the months
+of January through July of 2020 vs. the total number of industrial and
+artisanal vessels in the entire Chile VMS data set (Feb 2019 - Aug
+2020). Further categorized vessels according to whether they’re
+industrial or artisanal.
+
+**Total Number of Vessels of this analysis (industrial and artisanal):
+Jan - July 2020** The count of vessels according to their industrial or
+artisanal category is provided below as
+**Resumen\_Embarcaciones\_Del\_Estudio.csv**. However, the full list of
+vessels is also available as **Lista\_Embarcaciones\_Del\_Estudio.csv**
+
+``` r
+#Entire EZZ data from Jan-July 2020
+#Unique Vessel Names in order to match and change vessel names in final tables latter on
+UniqueVMSNamesChile <- read.csv ("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/UniqueVMSNamesChile.csv", header = TRUE)
+
+#Vessels from Jan-July 2020 (this study)
+TotalVesselsJanAug <- data.frame(aggregate(fishing_hours_sq_km ~ n_shipname, VMS_Hours_Final, sum))
+#Vessel Name
+TotalVesselsJanAug$Embarcacion <- UniqueVMSNamesChile$shipname[match(TotalVesselsJanAug$n_shipname, UniqueVMSNamesChile$n_shipname)]
+#Vessel Source
+UniqueVMSNamesChile <- subset(UniqueVMSNamesChile, source == "chile_vms_industry" | source == "chile_vms_small_fisheries")
+TotalVesselsJanAug$Categoria <- UniqueVMSNamesChile$source[match(TotalVesselsJanAug$n_shipname, UniqueVMSNamesChile$n_shipname)]
+TotalVesselsJanAug <- TotalVesselsJanAug[-c(1:2)]
+#Generate Table with count of industrial and artisanal vessels
+CountTotalVesselsJanAug <- count(TotalVesselsJanAug, "Categoria")
+#754 total vessels - 115 industrial and 639 artisanal
+
+# write.csv(TotalVesselsJanAug, file="Lista_Embarcaciones_Del_Estudio.csv")
+# write.csv(CountTotalVesselsJanAug, file="Resumen_Embarcaciones_Del_Estudio.csv")
+```
+
+| Categoria                    | freq |
+| :--------------------------- | ---: |
+| chile\_vms\_industry         |  115 |
+| chile\_vms\_small\_fisheries |  639 |
+
+**Total Number of Vessels of the entire VMS Chile data set (industrial
+and artisanal): Feb 2019 - Aug 2020** Query to extract unique vessel
+names and their industrial and/or artisanal categories
+
+``` r
+query_string <- glue::glue('
+WITH
+
+VMSChileTmp AS (
+SELECT shipname,source
+FROM `world-fishing-827.pipe_chile_production_v20200331.messages_scored_*`
+WHERE (source = "chile_vms_industry"
+OR source = "chile_vms_small_fisheries")
+),
+
+TotalVesselsVMS AS (
+SELECT
+DISTINCT shipname,
+source
+FROM VMSChileTmp 
+)
+
+SELECT *
+FROM TotalVesselsVMS
+')
+TotalVesselsVMS <- DBI::dbGetQuery(con, query_string)
+# write.csv(TotalVesselsVMS, file = "TotalVesselsVMS.csv")
+```
+
+Entire Chile VMS data set: The count of vessels according to their
+industrial or artisanal category is provided below as
+**Resumen\_Embarcaciones\_VMS\_Total.csv**. However, the full list of
+vessels is also available as **Lista\_Embarcaciones\_VMS\_Total.csv**
+
+``` r
+#Entire VMS Chile vessels data from Feb 2019 - Aug 2020
+Lista_Embarcaciones_VMS_Total <- read.csv ("/Users/Esteban/Documents/Jobs/GFW/Proyectos/Chile/SERNAPESCA/Data/Maps_Tables/Tmp/TotalVesselsVMS.csv", header = TRUE)
+#Modify final table before exporting
+colnames(Lista_Embarcaciones_VMS_Total)[2] <- "Embarcacion"
+colnames(Lista_Embarcaciones_VMS_Total)[3] <- "Categoria"
+Lista_Embarcaciones_VMS_Total <- Lista_Embarcaciones_VMS_Total[-1]
+#Generate Table with count of industrial and artisanal vessels
+Resumen_Embarcaciones_VMS_Total <- count(Lista_Embarcaciones_VMS_Total, "Categoria")
+
+#1,108 total vessels - 141 industrial and 967 artisanal
+
+# write.csv(Lista_Embarcaciones_VMS_Total, file="Lista_Embarcaciones_VMS_Total.csv")
+# write.csv(Resumen_Embarcaciones_VMS_Total, file="Resumen_Embarcaciones_VMS_Total.csv")
+```
+
+| Categoria                    | freq |
+| :--------------------------- | ---: |
+| chile\_vms\_industry         |  141 |
+| chile\_vms\_small\_fisheries |  967 |
+
 Only the January map will be displayed below. But the code is provided
 for the generating of maps from Jan - July, 2020. Zoomed Out January:
 
@@ -959,7 +1074,7 @@ VMS_CH_Jan_2020 <- ggplot() +
 VMS_CH_Jan_2020
 ```
 
-![](EP_Norte_Sur_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](EP_Norte_Sur_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
 
 ``` r
 # ggsave("1_VMS_CH_Jan_2020.png", dpi=300)
@@ -1177,7 +1292,7 @@ VMSz_CH_Jan_2020 <- ggplot() +
 VMSz_CH_Jan_2020
 ```
 
-![](EP_Norte_Sur_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
+![](EP_Norte_Sur_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
 
 ``` r
 # ggsave("1_VMSz_CH_Jan_2020.png", dpi=300)

@@ -1,0 +1,356 @@
+"","Embarcacion","Mes","Horas_De_Pesca_Km2","Horas_Transito_y_Pesca_Km2"
+"1","ABATE MOLINA","enero",0,4
+"2","BRUDER ALFA (ART-TRP)","enero",0,75
+"3","CHANGO I (ART)","enero",0,22
+"4","COCHA (IND)","enero",56,108
+"5","DELFIN 2000 (ART)","enero",37,139
+"6","DOÑA BERNARDA (L","enero",20,74
+"7","FOCHE (IND)","enero",25,41
+"8","GAROTA (ART)","enero",49,182
+"9","GAROTA II (ART)","enero",32,179
+"10","GAROTA III (ART)","enero",52,177
+"11","GAROTA IV (ART)","enero",44,193
+"12","GAROTA V (ART)","enero",35,185
+"13","GIANPIERO I","enero",0,21
+"14","GRINGO (IND)","enero",7,24
+"15","HUMBOLDT II (ART)","enero",0,23
+"16","ISLA PICTON","enero",6,25
+"17","ISLA TABON (L","enero",75,79
+"18","JEPE I (ART)","enero",38,147
+"19","MARIA PABLA (ART)","enero",22,100
+"20","MARIA SOLEDAD II (ART)","enero",47,142
+"21","NIEBLA","enero",22,85
+"22","NISSHIN MARU N°3 (IND)","enero",36,54
+"23","PUNTA TALCA (ART)","enero",90,131
+"24","TRAUWÜN I (ART)","enero",163,282
+"25","VALENTINA (L","enero",0,20
+"26","ABATE MOLINA","febrero",21,72
+"27","BETTY YULY (L","febrero",90,125
+"28","BRUDER ALFA (ART-TRP)","febrero",3,34
+"29","DELFIN 2000 (ART)","febrero",42,129
+"30","DOÑA BERNARDA (L","febrero",31,71
+"31","GAROTA (ART)","febrero",47,144
+"32","GAROTA II (ART)","febrero",38,158
+"33","GAROTA III (ART)","febrero",43,149
+"34","GAROTA IV (ART)","febrero",47,166
+"35","GAROTA V (ART)","febrero",26,141
+"36","ISLA PICTON","febrero",7,8
+"37","JEPE I (ART)","febrero",31,86
+"38","MAMITA RITA (L","febrero",148,186
+"39","MARIA PABLA (ART)","febrero",12,42
+"40","MARIA SOLEDAD II (ART)","febrero",48,132
+"41","NIEBLA","febrero",9,27
+"42","NISSHIN MARU N°3 (IND)","febrero",14,17
+"43","PALMI I (L","febrero",92,156
+"44","POLUX (IND)","febrero",3,27
+"45","PUNTA DE HUMO (L","febrero",47,56
+"46","PUNTA TALCA (ART)","febrero",87,116
+"47","SKORPION II (ART)","febrero",158,236
+"48","VALENTINA (L","febrero",0,19
+"49","ABATE MOLINA","marzo",125,334
+"50","BETTY YULY (L","marzo",124,142
+"51","CAICAVEN (L","marzo",103,158
+"52","CHANGO I (ART)","marzo",0,21
+"53","COCHA (IND)","marzo",0,15
+"54","DELFIN 2000 (ART)","marzo",21,106
+"55","DOÑA BERNARDA (L","marzo",43,117
+"56","DON STEFAN (IND)","marzo",14,17
+"57","DON VICTORINO (ART)","marzo",11,44
+"58","FOCHE (IND)","marzo",0,15
+"59","GAROTA (ART)","marzo",30,93
+"60","GAROTA II (ART)","marzo",25,105
+"61","GAROTA III (ART)","marzo",40,118
+"62","GAROTA IV (ART)","marzo",22,108
+"63","GAROTA V (ART)","marzo",40,120
+"64","GRINGO (IND)","marzo",4,20
+"65","ISLA PICTON","marzo",2,23
+"66","JEPE I (ART)","marzo",43,115
+"67","LEONORA (L","marzo",172,259
+"68","MAMA ANTONIA (L","marzo",0,28
+"69","MAMITA RITA (L","marzo",175,233
+"70","MARIA EUGENIA M (L","marzo",0,22
+"71","MARIA PABLA (ART)","marzo",26,93
+"72","MARIA SOLEDAD II (ART)","marzo",48,133
+"73","NIEBLA","marzo",22,73
+"74","NISSHIN MARU N°3 (IND)","marzo",0,16
+"75","ORIENTE (ART)","marzo",0,0
+"76","PALMI I (L","marzo",45,93
+"77","POLUX (IND)","marzo",0,16
+"78","PUNTA DE HUMO (L","marzo",62,67
+"79","PUNTA TALCA (ART)","marzo",235,292
+"80","SKORPION II (ART)","marzo",377,499
+"81","TRAUWÜN I (ART)","marzo",75,110
+"82","YOLANDA II (L","marzo",31,38
+"83","ABATE MOLINA","abril",0,18
+"84","BETTY YULY (L","abril",0,6
+"85","CAZADOR (L","abril",0,8
+"86","COBRA (IND)","abril",7,9
+"87","COCHA (IND)","abril",104,186
+"88","DELFIN 2000 (ART)","abril",13,79
+"89","DOÑA BERNARDA (L","abril",35,139
+"90","DON GERMAN I (L","abril",0,22
+"91","DON HELENO (L","abril",0,25
+"92","DON JULIO (BZA)","abril",0,2
+"93","DON STEFAN (IND)","abril",103,121
+"94","DON VICTORINO (ART)","abril",35,113
+"95","EL ACUARIO (L","abril",44,50
+"96","GAROTA (ART)","abril",27,131
+"97","GAROTA II (ART)","abril",30,132
+"98","GAROTA III (ART)","abril",32,135
+"99","GAROTA IV (ART)","abril",28,131
+"100","GAROTA V (ART)","abril",39,148
+"101","GRINGO (IND)","abril",65,102
+"102","HUMBOLDT II (ART)","abril",0,21
+"103","ISLA PICTON","abril",87,131
+"104","JEPE I (ART)","abril",33,103
+"105","JOYA DEL PACIFICO (L","abril",0,33
+"106","LEONORA (L","abril",0,0
+"107","MARIA PABLA (ART)","abril",27,122
+"108","MARIA SOLEDAD II (ART)","abril",42,158
+"109","NIEBLA","abril",10,65
+"110","POLUX (IND)","abril",56,118
+"111","PUNTA TALCA (ART)","abril",114,165
+"112","SKORPION II (ART)","abril",66,84
+"113","TRAUWÜN I (ART)","abril",45,61
+"114","VICHUQUEN II (IND)","abril",0,0
+"115","YOLANDA II (L","abril",26,46
+"116","ALFA I (L","mayo",27,47
+"117","ARAUCANA III (L","mayo",12,32
+"118","BRUMA (L","mayo",0,27
+"119","CLAUDIA SOFIA (ART)","mayo",153,173
+"120","COCHA (IND)","mayo",0,22
+"121","DELFIN 2000 (ART)","mayo",44,136
+"122","DOÑA ADRIANA LM  ART","mayo",21,65
+"123","DOÑA BERNARDA (L","mayo",44,155
+"124","DON DANILO F (ART)","mayo",141,172
+"125","DON DANY (L","mayo",0,1
+"126","DON DAVID II (ART)","mayo",112,122
+"127","DON GILBERTO I (ART)","mayo",0,0
+"128","DON JEAN PIERRE (ART)","mayo",28,31
+"129","DON JULIO (BZA)","mayo",275,444
+"130","DON VICTORINO (ART)","mayo",43,135
+"131","FERNANDO ANDRES II (L","mayo",164,250
+"132","FOCHE (IND)","mayo",117,270
+"133","GAROTA (ART)","mayo",37,119
+"134","GAROTA II (ART)","mayo",34,117
+"135","GAROTA III (ART)","mayo",45,143
+"136","GAROTA IV (ART)","mayo",45,166
+"137","GAROTA V (ART)","mayo",39,128
+"138","GRINGO (IND)","mayo",107,198
+"139","GUERRERO DE PACIFICO (ART)","mayo",150,169
+"140","HERACLES (L","mayo",0,24
+"141","HUANAY (L","mayo",0,27
+"142","ISLA ORCAS (IND)","mayo",5,26
+"143","ISLA PICTON","mayo",123,237
+"144","ISLA TABON (L","mayo",202,257
+"145","JECHITO VI (L","mayo",0,27
+"146","JEPE I (ART)","mayo",23,74
+"147","JOSE LUIS (ART)","mayo",114,156
+"148","JUAN CLAUDIO III   LB","mayo",69,79
+"149","LIDER (IND)","mayo",25,64
+"150","LONCO (IND)","mayo",8,14
+"151","LUIS ALBERTO I (L","mayo",93,107
+"152","LUIS ALFONSO I (L","mayo",0,0
+"153","LUIS ANDRES I (L","mayo",109,117
+"154","LUIS DAVID C (L","mayo",104,117
+"155","MAMA ANTONIA (L","mayo",131,153
+"156","MARIA EUGENIA M (L","mayo",43,71
+"157","MARIA M (L","mayo",51,60
+"158","MARIA PABLA (ART)","mayo",21,92
+"159","MARIA SOLEDAD II (ART)","mayo",33,64
+"160","MARJUXI II (L","mayo",8,9
+"161","MARJUXI IV (L","mayo",306,349
+"162","MATIAS IGNACIO (L","mayo",279,356
+"163","MILTON PATRICIO (L","mayo",149,165
+"164","NIEBLA","mayo",40,126
+"165","NISSHIN MARU N°3 (IND)","mayo",90,234
+"166","PEHUENCO (IND)","mayo",21,66
+"167","PELICANO (IND)","mayo",14,57
+"168","PUNTA DE HUMO (L","mayo",0,27
+"169","PUNTA TALCA (ART)","mayo",235,268
+"170","REY DEL PACIFICO (ART)","mayo",85,90
+"171","RIO PELLUHUE II (L","mayo",0,27
+"172","RIO PELLUHUE I (L","mayo",0,27
+"173","SAN JOSE (IND)","mayo",24,65
+"174","SANTA IRENE III (L","mayo",113,130
+"175","SKORPION II (ART)","mayo",144,177
+"176","SOFIA M (L","mayo",127,152
+"177","SUSANA C (ART)","mayo",88,91
+"178","TRAUWÜN I (ART)","mayo",184,235
+"179","VENTISQUERO (IND)","mayo",73,180
+"180","VESTERVEG (IND)","mayo",18,69
+"181","ABATE MOLINA","junio",5,5
+"182","ALFA I (L","junio",192,213
+"183","ARAUCANA III (L","junio",237,268
+"184","BETTY YULY (L","junio",82,97
+"185","BRUMA (L","junio",33,55
+"186","CARLA BELEN I (L","junio",83,140
+"187","CAZADOR (L","junio",150,202
+"188","CLAUDIA SOFIA (ART)","junio",307,354
+"189","COCHA (IND)","junio",0,18
+"190","CONY I (IND)","junio",234,271
+"191","DELFIN 2000 (ART)","junio",21,95
+"192","DEMETRIO II (L","junio",278,285
+"193","DIEGO ARMANDO II (L","junio",127,154
+"194","DOÑA ADRIANA  ART","junio",16,74
+"195","DOÑA ADRIANA LM  ART","junio",3,9
+"196","DOÑA BERNARDA (L","junio",5,40
+"197","DON CARLOS (L","junio",303,348
+"198","DON DANILO F (ART)","junio",178,182
+"199","DON DANY (L","junio",92,120
+"200","DON DAVID II (ART)","junio",207,211
+"201","DON GERMAN I (L","junio",128,188
+"202","DON GILBERTO I (ART)","junio",176,192
+"203","DON HELENO (L","junio",14,39
+"204","DON IGEL (L","junio",211,249
+"205","DON JEAN PIERRE (ART)","junio",36,70
+"206","DON JORGE M (ART)","junio",93,99
+"207","DON JULIO (BZA)","junio",253,297
+"208","DON MATIAS I (L","junio",91,102
+"209","DON NAO (ART)","junio",189,193
+"210","DON STEFAN (IND)","junio",0,1
+"211","DON VICTORINO (ART)","junio",16,73
+"212","EL ACUARIO (L","junio",26,40
+"213","EL ROBLE (L","junio",219,226
+"214","ESPERANZA I (ART)","junio",181,194
+"215","FERNANDO ANDRES II (L","junio",225,236
+"216","FOCHE (IND)","junio",141,271
+"217","GAROTA (ART)","junio",12,75
+"218","GAROTA II (ART)","junio",19,80
+"219","GAROTA III (ART)","junio",25,87
+"220","GAROTA IV (ART)","junio",15,98
+"221","GAROTA V (ART)","junio",14,68
+"222","GUERRERO DEL PACIFICO (ART)","junio",8,71
+"223","GUERRERO DE PACIFICO (ART)","junio",248,287
+"224","HECTOR ALFREDO (L","junio",236,255
+"225","HERACLES (L","junio",30,55
+"226","ISLA ORCAS (IND)","junio",6,46
+"227","ISLA PICTON","junio",15,22
+"228","ISLA TABON (L","junio",144,156
+"229","IVETH I (L","junio",84,119
+"230","JEPE I (ART)","junio",4,26
+"231","JOSE LUIS (ART)","junio",134,161
+"232","JOSE MANUEL III (L","junio",146,153
+"233","JOYA II (L","junio",160,183
+"234","JUAN BAUTISTA (L","junio",107,115
+"235","JUAN CLAUDIO (ART)","junio",162,162
+"236","JUAN CLAUDIO III   LB","junio",51,52
+"237","JUAN CLAUDIO II (L","junio",27,28
+"238","LUIS ALBERTO I (L","junio",225,257
+"239","LUIS ALFONSO I (L","junio",148,157
+"240","LUIS ANDRES I (L","junio",144,179
+"241","LUIS DAVID C (L","junio",244,247
+"242","MAMA ANTONIA (L","junio",231,283
+"243","MARIA CRUZ II (L","junio",241,256
+"244","MARIA EUGENIA M (L","junio",129,192
+"245","MARIA M (L","junio",207,245
+"246","MARIA PABLA (ART)","junio",14,53
+"247","MARIA SOLEDAD II (ART)","junio",28,107
+"248","MARJUXI II (L","junio",194,213
+"249","MARJUXI IV (L","junio",318,323
+"250","MATIAS IGNACIO (L","junio",210,221
+"251","MAXIMO JAVIER (L","junio",310,344
+"252","MILTON PATRICIO (L","junio",69,97
+"253","NIEBLA","junio",17,56
+"254","NISSHIN MARU N°3 (IND)","junio",119,257
+"255","PAOLA STEPHANIE (L","junio",243,253
+"256","PINITA (L","junio",64,71
+"257","PUERTO LINDO (ART)","junio",112,150
+"258","PUNTA TALCA (ART)","junio",113,126
+"259","REY DEL PACIFICO (ART)","junio",244,249
+"260","RIO SIMPSON (L","junio",134,166
+"261","SANTA IRENE III (L","junio",64,89
+"262","SANTA PALESTINA I (L","junio",253,257
+"263","SOFIA M (L","junio",118,137
+"264","STA XIMENA (L","junio",276,292
+"265","SUSANA C (ART)","junio",203,250
+"266","SUSANA III (ART)","junio",130,147
+"267","TRAUWÜN I (ART)","junio",140,171
+"268","TUMBES (L","junio",267,276
+"269","VALENTINA ARACELI (L","junio",257,278
+"270","YOVANKA (L","junio",284,349
+"271","YUCATAN (L","junio",77,98
+"272","ABATE MOLINA","julio",17,126
+"273","ALFA I (L","julio",60,93
+"274","BRUMA (L","julio",20,23
+"275","CARLA BELEN I (L","julio",0,27
+"276","CAZADOR (L","julio",437,495
+"277","CLAUDIA SOFIA (ART)","julio",0,7
+"278","COCHA (IND)","julio",34,65
+"279","CONY I (IND)","julio",41,83
+"280","DELFIN 2000 (ART)","julio",16,79
+"281","DEMETRIO II (L","julio",17,35
+"282","DIEGO ARMANDO II (L","julio",10,33
+"283","DOÑA ADRIANA  ART","julio",14,103
+"284","DON CARLOS (L","julio",15,70
+"285","DON DANILO F (ART)","julio",219,250
+"286","DON DANY (L","julio",15,38
+"287","DON DAVID II (ART)","julio",29,51
+"288","DON GILBERTO I (ART)","julio",0,23
+"289","DON HELENO (L","julio",0,24
+"290","DON IGEL (L","julio",0,1
+"291","DON JAIME (ART)","julio",11,27
+"292","DON JEAN PIERRE (ART)","julio",0,10
+"293","DON JORGE M (ART)","julio",19,34
+"294","DON MATIAS I (L","julio",175,197
+"295","DON NAO (ART)","julio",90,120
+"296","DON NENE (ART)","julio",1,45
+"297","DON VICTORINO (ART)","julio",33,127
+"298","ELBE (IND)","julio",20,22
+"299","ESPERANZA I (ART)","julio",105,124
+"300","FERNANDO ANDRES II (L","julio",44,89
+"301","FOCHE (IND)","julio",88,221
+"302","GAROTA (ART)","julio",20,109
+"303","GAROTA II (ART)","julio",20,122
+"304","GAROTA III (ART)","julio",29,129
+"305","GAROTA IV (ART)","julio",21,136
+"306","GAROTA V (ART)","julio",25,142
+"307","GRINGO (IND)","julio",17,69
+"308","GUERRERO DEL PACIFICO (ART)","julio",0,9
+"309","HECTOR ALFREDO (L","julio",198,348
+"310","HERACLES (L","julio",40,48
+"311","ISLA PICTON","julio",25,45
+"312","ISLA TABON (L","julio",175,235
+"313","IVETH I (L","julio",16,34
+"314","JEPE I (ART)","julio",24,104
+"315","JOSE MANUEL III (L","julio",44,60
+"316","JOYA II (L","julio",188,218
+"317","JUAN BAUTISTA (L","julio",24,50
+"318","JUAN CLAUDIO (ART)","julio",108,133
+"319","JUAN CLAUDIO III   LB","julio",38,54
+"320","JUAN CLAUDIO II (L","julio",38,54
+"321","JUAN CLAUDIO I (L","julio",93,165
+"322","LUIS ALBERTO I (L","julio",2,52
+"323","LUIS ALBERTO (L","julio",181,289
+"324","LUIS ALFONSO I (L","julio",17,50
+"325","LUIS ANDRES I (L","julio",0,29
+"326","LUIS DAVID C (L","julio",37,52
+"327","MAMA ANTONIA (L","julio",106,127
+"328","MARIA CRUZ II (L","julio",204,346
+"329","MARIA M (L","julio",0,17
+"330","MARIA PABLA (ART)","julio",17,90
+"331","MARIA SOLEDAD II (ART)","julio",45,153
+"332","MARJUXI II (L","julio",67,99
+"333","MARJUXI IV (L","julio",7,24
+"334","MATIAS IGNACIO (L","julio",7,24
+"335","MAXIMO JAVIER (L","julio",0,33
+"336","MILTON PATRICIO (L","julio",0,12
+"337","NIEBLA","julio",16,67
+"338","NISSHIN MARU N°3 (IND)","julio",93,228
+"339","PAOLA STEPHANIE (L","julio",34,84
+"340","PINITA (L","julio",262,278
+"341","PUERTO LINDO (ART)","julio",208,261
+"342","QUERELEMA (IND)","julio",1,29
+"343","REY DEL PACIFICO (ART)","julio",0,24
+"344","RIO SIMPSON (L","julio",5,18
+"345","SANTA IRENE III (L","julio",0,7
+"346","SANTA PALESTINA I (L","julio",15,61
+"347","SOFIA M (L","julio",137,160
+"348","STA XIMENA (L","julio",0,20
+"349","SUSANA C (ART)","julio",38,49
+"350","SUSANA III (ART)","julio",89,127
+"351","TRAUWÜN I (ART)","julio",125,232
+"352","TUMBES (L","julio",22,36
+"353","VALENTINA ARACELI (L","julio",43,66
+"354","YOVANKA (L","julio",1,20
+"355","YUCATAN (L","julio",15,40
